@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="bill">
+            <label for="bill">Bill $</label>
+            <input type="number" name="bill" id="bill">
+        </div>
+        
+        <div class="tip">
+            <label for="tip">Tip</label>
+            <input type="range" name="tip" id="tip" min="0" max="100" step="1">
+            <span>%</span>
+        </div>
+        
+        <h2>Results</h2>
+        <div class="tipAmount">
+            <label for="tipAmount">Tip amount</label>
+            <input type="text" name="tipAmount" id="tipAmount">
+        </div>
+        
+        <div class="billWithTip">
+            <label for="billWithTip">Total Bill with Tip</label>
+            <input type="text" name="billWithTip" id="billWithTip">
+        </div>
+        
+        <footer>
+            <p>By Gabriel de Souza</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
