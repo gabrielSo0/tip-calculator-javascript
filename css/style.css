@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+h1 {
+    margin: 50px;
+}
+
+div.bill, div.tipAmount, div.billWithTip {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.bill div.tipAmount div.billWithTip, label, input{
+    border: 1px solid rgb(167, 161, 161);
+    padding: 5px;
+}
+
+div.bill div.tipAmount div.billWithTip, label  {
+    border-radius: 2px 0px 0px 2px;
+    font-size: 1.2em;
+}
+
+div.bill div.tipAmount div.billWithTip, input {
+    border-radius: 0px 2px 2px 0px;
+    width: 70%;
+}
+
+div.tip {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+div.tip label {
+    font-size: 1.2em;
+}
+
+div.tip input {
+    width: 70%;
+}
+
+hr {
+    border-top: 1px solid rgb(184, 173, 173);
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+footer p {
+    color: #000000;
+    
+}
